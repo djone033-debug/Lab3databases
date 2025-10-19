@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // CODE TO RUN WHEN FIND BUTTON IS CLICKED
         findBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // CODE TO RUN WHEN DELETE BUTTON IS CLICKED
         deleteBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
